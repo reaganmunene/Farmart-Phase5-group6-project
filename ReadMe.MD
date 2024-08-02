@@ -29,13 +29,13 @@ By eliminating middlemen, we aim to ensure fair pricing and genuine connections.
 ## Tech Stack
 
 #### Front End:
-
+- Figma and Wireframe
 - React.js
 - Redux Toolkit
 - CSS3
 
 #### Back End:
-
+- Python
 - Flask
 - PostgreSQL
 - Project Structure
