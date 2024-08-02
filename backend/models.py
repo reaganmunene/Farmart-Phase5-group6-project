@@ -1,4 +1,6 @@
 from backend import db
+from app import db
+
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -11,13 +13,10 @@ class User(db.Model):
 
 class Animal(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    farmer_email = db.Column(db.String(120), nullable=False)
-    price = db.Column(db.Float, nullable=False)
-    county = db.Column(db.String(50), nullable=False)
-    town = db.Column(db.String(50), nullable=False)
-    breed = db.Column(db.String(50), nullable=False)
-    category = db.Column(db.String(50), nullable=False)
-    image_url = db.Column(db.String(255), nullable=False)
+    name = db.Column(db.String(100), nullable=False)
+    breed = db.Column(db.String(100), nullable=False)
+    age = db.Column(db.Integer, nullable=False)
+
 
 class Cart(db.Model):
     id = db.Column(db.Integer, primary_key=True)

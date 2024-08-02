@@ -1,4 +1,4 @@
-import { postRequest } from './apiService';
+import { postRequest } from '../api/apiService';
 
 export const registerUser = async (username, password, userType) => {
   try {
