@@ -1,0 +1,46 @@
+.testimonials {
+    text-align: center;
+    padding: 40px 20px; /* Increased padding for better spacing */
+    background-color: #f9f9f9; /* Light background for a fresh look */
+    color: #333; /* Dark text color for readability */
+}
+
+.testimonial {
+    background-color: #ffffff; /* Clean white background for testimonials */
+    padding: 20px;
+    margin: 20px auto; /* Centered with vertical spacing */
+    border: 1px solid #e0e0e0; /* Light border for subtle separation */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 600px; /* Maximum width for readability */
+    position: relative;
+}
+
+.circle {
+    width: 60px; /* Medium-sized circle */
+    height: 60px; /* Medium-sized circle */
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: -30px; /* Positioned above the testimonial */
+    left: calc(50% - 30px); /* Centered horizontally */
+    border: 2px solid #0073e6; /* Professional blue border */
+    background-color: #ffffff; /* White background for the circle */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center emoji within the circle */
+    font-size: 24px; /* Adjust emoji size */
+}
+
+h3 {
+    margin-top: 40px; /* Increased margin to accommodate emoji */
+    font-weight: bold;
+    font-size: 1.2em; /* Slightly smaller font size for a professional appearance */
+    color: #0073e6; /* Professional blue color for headings */
+}
+
+blockquote {
+    font-size: 16px; /* Standard font size for quotes */
+    color: #666; /* Slightly lighter color for blockquote text */
+    margin-top: 10px; /* Space above the blockquote */
+}

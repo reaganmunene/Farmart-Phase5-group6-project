@@ -1,0 +1,57 @@
+.register-container {
+    max-width: 600px; /* Set a max width for a more professional look */
+    margin: 60px auto 0; /* Add top margin to ensure it’s not covered by the header */
+    padding: 20px;
+    background-color: #ffffff; /* White background for a clean look */
+    border-radius: 8px; /* Rounded corners for a softer appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+    text-align: center;
+    color: #0073e6; /* Professional blue color for headings */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin-bottom: 15px; /* Space between fields */
+    font-weight: bold;
+}
+
+.form-select, .form-input {
+    width: 100%; /* Full width for form elements */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd; /* Light border for form inputs */
+    border-radius: 4px;
+}
+
+.form-select {
+    background-color: #f9f9f9; /* Light grey background for select */
+}
+
+.form-button {
+    padding: 10px;
+    background-color: #0073e6; /* Blue background for button */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.form-button:hover {
+    background-color: #005bb5; /* Darker blue for hover effect */
+}
+
+.form-message {
+    color: #ff0000; /* Red color for error messages */
+    text-align: center;
+    margin-top: 15px;
+}

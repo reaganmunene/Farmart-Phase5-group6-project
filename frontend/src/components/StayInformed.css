@@ -1,0 +1,41 @@
+.stay-informed {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Light background for a clean look */
+    color: #333; /* Dark text color for readability */
+}
+
+.news-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between news items */
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+}
+
+.news-item {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* White background for each item */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    max-width: 300px; /* Limit width for each item */
+    flex: 1; /* Flexible width to adjust with the container */
+    margin: 10px; /* Margin for spacing */
+}
+
+.news-item:hover {
+    transform: scale(1.05); /* Slightly larger on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.emoji-container {
+    font-size: 40px; /* Larger emoji size */
+    margin-right: 15px; /* Space between emoji and text */
+}
+
+.news-text {
+    font-size: 1.1em; /* Slightly larger font size for text */
+    line-height: 1.4; /* Increased line height for readability */
+}

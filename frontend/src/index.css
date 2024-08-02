@@ -1,0 +1,23 @@
+/* Reset default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px; /* Slightly smaller font size */
+  height: 100%; /* Ensure full height */
+  background-color: #f9f9f9; /* Light background */
+  color: #333; /* Dark text color for readability */
+}
+
+/* Global styles for the entire application */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure app takes full height of viewport */
+}
+
+/* Main content area (excluding header and footer) */
+.main-content {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+}

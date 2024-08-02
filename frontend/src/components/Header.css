@@ -1,0 +1,65 @@
+.header {
+    background-color: #002600; /* Dark green color for the collapsed state */
+    color: white;
+    padding: 8px 0; /* Smaller padding to match the collapsed state */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease; /* Smooth transition for any changes */
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.1em; /* Adjusted font size to fit the smaller header */
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 15px; /* Adjusted margin */
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.top-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em; /* Slightly smaller font size */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #002600; /* Dark green color */
+    padding: 8px 0; /* Smaller padding to match the collapsed state */
+    border-top: 1px solid #fff;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+.nav-item:hover {
+    color: #005700; /* Slightly lighter dark green for hover effect */
+}

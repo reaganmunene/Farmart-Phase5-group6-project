@@ -1,0 +1,53 @@
+.display {
+    text-align: center;
+    background-color: #ffffff; /* White background for a clean look */
+    padding: 40px 20px; /* Spacious padding for better layout */
+    color: #333; /* Dark text color for readability */
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around; /* Space between columns */
+    flex-wrap: wrap; /* Wrap columns on smaller screens */
+    gap: 20px; /* Space between columns */
+}
+
+.column {
+    background-color: #f9f9f9; /* Light grey background for each column */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+    flex: 1; /* Flexible width to adjust with the container */
+    max-width: 300px; /* Maximum width for each column */
+    margin: 10px; /* Margin for spacing */
+}
+
+.column:hover {
+    transform: scale(1.03); /* Slightly larger on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+    background-color: #e9ecef; /* Slightly darker background color on hover */
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Space between icon and text */
+}
+
+.icon {
+    margin-right: 15px; /* Space between icon and text */
+    font-size: 40px; /* Larger icon size for better visibility */
+    color: #0073e6; /* Professional blue color for icons */
+}
+
+.text {
+    text-align: left; /* Align text to the left for readability */
+}
+
+.additional-info {
+    margin-top: 10px; /* Space above the additional info text */
+    font-size: 16px; /* Font size for additional information */
+    color: #555; /* Slightly lighter color for additional text */
+    line-height: 1.4; /* Increased line height for readability */
+}

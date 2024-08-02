@@ -1,0 +1,54 @@
+.about-us {
+    text-align: center;
+    padding: 80px 20px 40px; /* Added more top padding to avoid overlap */
+    background-color: #f8f9fa; /* Light background for contrast */
+    margin-top: 60px; /* Ensure there's enough space for the header */
+}
+
+.emoji-container {
+    font-size: 3em; /* Larger emoji */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.stat-item {
+    background-color: #eaf0e4; /* Light green background */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.stat-item p {
+    font-size: 2em;
+    margin: 10px 0 0;
+    font-weight: bold;
+    color: #005700; /* Dark green color */
+    transition: color 0.3s ease;
+}
+
+.stat-item p:hover {
+    color: #007700; /* Slightly lighter dark green on hover */
+}

@@ -1,0 +1,55 @@
+.footer {
+    background-color: #fce4ec; /* Very soft pink for the background */
+    color: #333; /* Dark text color for readability */
+    padding: 10px 20px; /* Reduced padding for a smaller footer */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Wrap content on smaller screens */
+    gap: 15px; /* Slightly reduced gap between sections */
+    border-top: 1px solid #e0e0e0; /* Light border for subtle separation */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.footer:hover {
+    background-color: #f8bbd0; /* Slightly darker pink on hover */
+}
+
+.contact-info, .social-media, .newsletter {
+    flex: 1;
+    min-width: 150px; /* Ensure content does not become too narrow */
+}
+
+.social-link {
+    display: block;
+    margin-bottom: 8px; /* Reduced margin for better spacing */
+    color: #0073e6; /* Professional blue color for links */
+    text-decoration: none;
+    font-size: 14px; /* Smaller font size */
+}
+
+.social-link:hover {
+    text-decoration: underline; /* Underline on hover for better interaction */
+}
+
+.newsletter input {
+    padding: 8px; /* Reduced padding for better usability */
+    margin-right: 8px; /* Reduced margin for better spacing */
+    border: 1px solid #ccc; /* Light border for input */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 14px; /* Consistent font size */
+}
+
+.newsletter button {
+    background-color: #0073e6; /* Professional blue background */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 8px 16px; /* Reduced padding for a smaller button */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* Consistent font size */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.newsletter button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}
